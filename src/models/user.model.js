@@ -14,18 +14,13 @@ users.push(user);
 return user;
 }
 
-const saveUser = [];
-const load = (saveUser) => {
-    users.push(saveUser);
-    return saveUser;
+const getAllUsers = () => {
+    return users;
 }
-
-
 
 module.exports = {
 User,
 save,
-load,
-saveUser
+getAllUsers
 };
 
